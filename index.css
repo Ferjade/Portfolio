@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 100vh;
+  z-index: 1000;
+  background: #164A41;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #F1B24A;
+}
+nav{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  z-index: 111;
+  background-color: #164A41;
+}
+.navItems{
+  display: flex;
+}
+.navItems li{
+  list-style: none;
+  margin: 0 15px;
+  padding-top: 15px;
+}
+.navItems li a{
+  font-size: 25px;
+  color: #e0ffff;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.navItems li a:hover,
+.navItems li a.active {
+  color: #F1B24A;
+  transition: 0.5s ease-out;
+  letter-spacing: 2px;
+}
+.links a{
+  font-size: 30px;
+  color: #F1B24A;
+  margin: 25px 10px;
+}
+.text-box1 h3 i{
+  color: #F1B24A;
+}
+.logo{
+  display: flex;
+  font-size: 40px;
+  font-weight: 800;
+  color: #F1B24A;
+  letter-spacing: 3px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+header nav {
+    float: right;
+}
+
+body{
+  background: #164A41 !important;
+}
+section{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section:nth-child(1){
+  color: #e0ffff;
+  }
+section:nth-child(2){
+  color: #e0ffff;
+  background: #F1B24A;
+} 
+section:nth-child(3){
+  color: #e0ffff;
+}
+section:nth-child(4){
+  color: #e0ffff;
+  background: #F1B24A;
+}
+section:nth-child(5){
+    color: #e0ffff;
+  }
+section .container{
+  margin: 100px;
+}
+section h2{
+  font-size: 3rem;
+  margin: 20px;
+}
+h2{
+  font-family: ltc-bodoni-175, serif;
+  font-style: normal;
+  font-weight: 400;
+}
+#myElement{
+  font-weight: 900;
+  color: #F1c24A;
+  font-size: 1.3em;
+}
+.name{
+  font-weight: 900;
+  font-size: 1.3em;
+}
+.thumbnail1{
+  display: flex;
+  width: 20em;
+  height: 10em;
+  background-image: url(./media/HowToDonateThumb.png);
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+.thumbnail2{
+  display: flex;
+  width: 20em;
+  height: 10em;
+  background-image: url(./media/DevHubThumb.png);
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+.thumbnail3{
+  display: flex;
+  width: 20em;
+  height: 10em;
+  background-image: url(./media/PortfolioThumb.png);
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+.projButton{
+  display: flex;
+}
+.projButton button{
+  padding: 5px 10px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #164A41;
+  color: #e0ffff;
+}
+.projButton button:hover{
+  background-color: #9DC88D;
+  color: black;
+}
+section h2{
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+section .text-container{
+   display: flex;
+}
+.container .text-container .text-box1 p{
+  margin-top: 1.5em;
+}
+.container .text-container .Proj-text-box p{
+  margin-top: 1.5em;
+}
+section .text-container .text-box1{
+  margin: 20px;
+  padding: 20px;
+  background: #164A41;
+}
+section .text-container .text-box2{
+  margin: 20px;
+  padding: 20px;
+  background: #F1B24A;
+}
+section .text-container .Proj-text-box{
+  margin: 20px;
+  padding: 20px;
+  background: #F1B24A;
+}
+section .text-container .Proj-text-box h3{
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+section .text-container .Proj-text-box p{
+  text-align: center;
+}
+section .text-container .text-box1 h3{
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+section .text-container .text-box2 h3{
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+/* Swiper */
+.swiper {
+  width: 70em;
+  height: 15em;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+
+@media (max-width: 900px){
+  section h2{
+    font-size: 2rem;
+    text-align: center;
+  }
+  section .text-container{
+    flex-direction: column;
+  }
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}

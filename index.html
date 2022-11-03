@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferjade's Porfolio</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="logo">Portfolio</div>
+          <ul class="navItems">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="links">
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Introduction -->
+        <section id="home">
+          <div class="wrapper">
+            <div class="cols cols0">
+              <h2>Hey! My name is <span class="name">Ferjade</span></h2>
+              <h2>I am a <span id="myElement"></span></h2> 
+            </div>
+          </div>
+        </section>
+      
+        <!-- About -->
+          <section id="about">
+            <div class="container reveal">
+              <h2>About Me</h2>
+              <div class="text-container">
+                <div class="text-box1">
+                  <h3><i class="bi bi-gear-wide-connected"></i> I Love Technology</h3>
+                  <p>
+                    I have always been fascinated with technology and how the world move.
+                    I like figuring how things work and enjoy solving things. That is how I 
+                    become a QA Tester for games and LiDaR annotator for autonomous cars.
+                  </p>
+                </div>
+                <div class="text-box1">
+                  <h3><i class="bi bi-book-half"></i> I Enjoy Learning</h3>
+                  <p>
+                    With my fascination of new technologies comes an urge to try and understand how it works.
+                    It took quite some time to figure out what I would love to do but I am on my way
+                    to take my first step in being a developer.
+                  </p>
+                </div>
+                <div class="text-box1">
+                  <h3><i class="bi bi-lightbulb-fill"></i> Aim to be Better</h3>
+                  <p>
+                    Owing to all those years soul searching, now that I have found a path
+                    I am willing to take. I have been striving day after day to improve my self
+                    and develop skills while continuing my education.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        
+        <!-- Projects and Services-->
+          <section id="projects">
+            <div class="container reveal">
+              <h2>Projects</h2>
+              <div class="text-container">
+                <div class="Proj-text-box">
+                  <h3>HowToDonate</h3>
+                  <div class="thumbnail1"></div>
+                  <p>
+                    A site that aims to introduce donating to people.
+                    <br>
+                    Part of KodeGo's Full Stack Web Development requirements.
+                  </p>
+                  <a href="https://ferjade.github.io/" target="_blank" class="projButton"><button>Check it out</button></a>
+                </div>
+                <div class="Proj-text-box">
+                  <h3>DevHub</h3>
+                  <div class="thumbnail2"></div>
+                  <p>
+                    A site for companies to check talented developers.
+                    <br>
+                    Part of KodeGo's Full Stack Web Development requirements.
+                  </p>
+                  <a href="https://ferjade.github.io/DevHub/" target="_blank" class="projButton"><button>Check it out</button></a>
+                </div>
+                <div class="Proj-text-box">
+                  <h3>Portfolio</h3>
+                  <div class="thumbnail3"></div>
+                  <p>
+                    A page to introduce myself and my projects.
+                    <br>
+                    Part of KodeGo's Full Stack Web Development requirements.
+                  </p>
+                  <a href="#home" class="projButton"><button>Check it out</button></a>
+                </div>
+              </div>
+            </div>
+          </section>
+        
+        <!-- Skills -->
+          <section id="skills">
+            <div class="container reveal">
+              <h2>Skills</h2>
+              <!-- Swiper -->
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="./media/HTML5_Logo.png" alt="logo"></div>
+                  <div class="swiper-slide"><img src="./media/CSS_Logo.png" alt="logo"></div>
+                  <div class="swiper-slide"><img src="./media/Sass_logo.png" alt="logo"></div>
+                  <div class="swiper-slide"><img src="./media/Bootstrap_logo.svg" alt="logo"></div>
+                  <div class="swiper-slide"><img src="./media/javascript_logo.png" alt="logo"></div>
+                  <div class="swiper-slide"><img src="./media/React_icon.svg" alt="logo"></div>
+                  <div class="swiper-slide"><img src="./media/mySql_logo.png" alt="logo"></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </section>
+        
+        <!-- Contact and Socials -->
+          <section id="contact">
+            <div class="container reveal">
+              <h2>Caption</h2>
+              <div class="text-container">
+                <div class="text-box2">
+                  <h3>Section Text</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                    eius molestiae perferendis eos provident vitae iste.
+                  </p>
+                </div>
+                <div class="text-box2">
+                  <h3>Section Text</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                    eius molestiae perferendis eos provident vitae iste.
+                  </p>
+                </div>
+                <div class="text-box2">
+                  <h3>Section Text</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                    eius molestiae perferendis eos provident vitae iste.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 1,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+          },
+          520: {
+            slidesPerView: 2,
+          },
+          950: {
+            slidesPerView: 3,
+          },
+        },
+      });
+    </script>
+    <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
+    <script>
+      const instance = new TypeIt("#myElement", {
+          speed: 100
+        })
+        .type("Freelancer", {delay:2000})
+        .delete(null, {delay:1000})
+        .type("Quality Assurance Tester", {delay:2000})
+        .delete(null, {delay:1000})
+        .type("Web Developer", {delay:2000})
+        .go()
+    </script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</html>

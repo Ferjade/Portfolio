@@ -246,14 +246,77 @@ section .text-container .text-box2 h3{
   object-fit: fill;
 }
 
+/* Form */
+
+input{
+  width: 97%;
+  margin-bottom: 1em;
+  padding: 10px;
+  border-radius: 15px;
+}
+textarea{
+  resize: none;
+  padding: 10px;
+  border-radius: 15px;
+}
+::placeholder{
+  color: black;
+}
+button{
+  
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #F1B24A;
+  color: black;
+}
+button:hover {
+  background-color: #FFFFFF;
+}
+.botlinks{
+  display: none;
+}
 
 @media (max-width: 900px){
+  .swiper {
+    width: 45em;
+    height: 18em;
+  }
   section h2{
     font-size: 2rem;
     text-align: center;
   }
   section .text-container{
     flex-direction: column;
+  }
+  input{
+    width: 100%;
+  }
+  textarea{
+    resize: none;
+    height: auto;
+    width: 38em;
+  }
+  .navItems li a{
+    font-size: 15px;
+  }
+  .links{
+    display: none;
+  }
+  .botlinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5em;
+  }
+  
+  .botlinks a{
+    font-size: 30px;
+    color: #F1B24A;
+    margin: 25px 10px;
   }
 }
 
